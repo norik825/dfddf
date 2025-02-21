@@ -6,7 +6,7 @@ const addBtn = document.querySelector('.add-btn');
 const transactionsContainer = document.getElementById('transactions');
 
 
-let balance = 2;
+let balance = 0;
 
 
 function updateBalance() {
@@ -44,7 +44,7 @@ function addTransaction() {
 
     
     if (description === '' || isNaN(amount)) {
-        alert('Please enter valid description and amount!');
+        alert('SHYKSAI');
         return;
     }
 
