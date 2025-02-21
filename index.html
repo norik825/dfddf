@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span>💰</span>
+            <h1>Budget Tracker</h1>
+        </div>
+        
+        <div class="balance">
+            Balance: 2 KZT
+        </div>
+
+        <input type="text" id="description" placeholder="Transaction name">
+        <input type="number" id="amount" placeholder="Amount">
+        <button class="add-btn">➕ Add Transaction</button>
+
+        <div id="transactions">
+            <!-- Transactions will be added here dynamically -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
